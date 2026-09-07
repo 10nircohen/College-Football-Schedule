@@ -31,6 +31,21 @@ data class Team(
 object TeamRepository {
 
     val teams: List<Team> = listOf(
+        
+        // "This Week" card - links to ESPN's overall schedule instead of a
+        // specific team. espnId/espnSlug are unused placeholders here since
+        // overrideUrl takes priority.
+        Team(
+            name = "This Week",
+            abbr = "CFB",
+            color = "#1A1A1A",
+            espnId = "",
+            espnSlug = "",
+            logoRes = "logo_default",
+            overrideUrl = "https://www.espn.com/college-football/schedule"
+        ),
+
+        // SEC
         Team("Alabama Crimson Tide", "ALA", "#9E1B32", "333", "alabama-crimson-tide", logoRes = "logo_alabama"),
         Team("Texas Longhorns", "TEX", "#BF5700", "251", "texas-longhorns", logoRes = "logo_texas"),
         Team("Texas A&M Aggies", "TAMU", "#500000", "245", "texas-am-aggies", logoRes = "logo_texas_am"),
@@ -46,16 +61,20 @@ object TeamRepository {
         Team("Vanderbilt Commodores", "VAN", "#866D4B", "238", "vanderbilt-commodores", logoRes = "logo_van"),
         Team("Arkansas Razorbacks", "ARK", "#9D2235", "8", "arkansas-razorbacks", logoRes = "logo_ark"),
         Team("Missouri Tigers", "MIZ", "#F1B82D", "142", "missouri-tigers", logoRes = "logo_miz"),
+
+        // Big 10
         Team("Ohio State Buckeyes", "OSU", "#BB0000", "194", "ohio-state-buckeyes", logoRes = "logo_osu"),
         Team("Michigan Wolverines", "MICH", "#00274C", "130", "michigan-wolverines", logoRes = "logo_mich"),
-        Team("Illinois Fighting Illini", "ILL", "#E84A27", "356", "illinois-fighting-illini", logoRes = "logo_default"),
-        Team("Indiana Hoosiers", "IU", "#990000", "84", "indiana-hoosiers", logoRes = "logo_default"),
-        Team("Oregon Ducks", "ORE", "#154733", "2483", "oregon-ducks", logoRes = "logo_default"),
-        Team("Penn State Nittany Lions", "PSU", "#041E42", "213", "penn-state-nittany-lions", logoRes = "logo_default"),
-        Team("UCLA Bruins", "UCLA", "#2D68C4", "26", "ucla-bruins", logoRes = "logo_default"),
-        Team("USC Trojans", "USC", "#8C1515", "30", "usc-trojans", logoRes = "logo_default"),
-        Team("Washington Huskies", "WASH", "#4B2E83", "264", "washington-huskies", logoRes = "logo_default"),
-        Team("Wisconsin Badgers", "WISC", "#C5050C", "275", "wisconsin-badgers", logoRes = "logo_default"),
+        Team("Illinois Fighting Illini", "ILL", "#E84A27", "356", "illinois-fighting-illini", logoRes = "logo_ill"),
+        Team("Indiana Hoosiers", "IU", "#990000", "84", "indiana-hoosiers", logoRes = "logo_iu"),
+        Team("Oregon Ducks", "ORE", "#154733", "2483", "oregon-ducks", logoRes = "logo_ore"),
+        Team("Penn State Nittany Lions", "PSU", "#041E42", "213", "penn-state-nittany-lions", logoRes = "logo_psu"),
+        Team("UCLA Bruins", "UCLA", "#2D68C4", "26", "ucla-bruins", logoRes = "logo_ucla"),
+        Team("USC Trojans", "USC", "#8C1515", "30", "usc-trojans", logoRes = "logo_usc"),
+        Team("Washington Huskies", "WASH", "#4B2E83", "264", "washington-huskies", logoRes = "logo_wash"),
+        Team("Wisconsin Badgers", "WISC", "#C5050C", "275", "wisconsin-badgers", logoRes = "logo_wisc"),
+
+        // Big 12
         Team("Texas Tech Red Raiders", "TTU", "#CC0000", "2641", "texas-tech-red-raiders", logoRes = "logo_default"),
         Team("BYU Cougars", "BYU", "#002E5D", "252", "byu-cougars", logoRes = "logo_default"),
         Team("Arizona Wildcats", "ARIZ", "#AB0520", "12", "arizona-wildcats", logoRes = "logo_default"),
@@ -66,6 +85,8 @@ object TeamRepository {
         Team("TCU Horned Frogs", "TCU", "#4D1979", "2628", "tcu-horned-frogs", logoRes = "logo_default"),
         Team("Utah Utes", "UTAH", "#BE0000", "254", "utah-utes", logoRes = "logo_default"),
         Team("West Virginia Mountaineers", "WVU", "#EAAA00", "277", "west-virginia-mountaineers", logoRes = "logo_default"),
+        
+        // ACC
         Team("Miami Hurricanes", "MIA", "#F47321", "2390", "miami-fl-hurricanes", logoRes = "logo_default"),
         Team("Virginia Cavaliers", "UVA", "#232D4B", "258", "virginia-cavaliers", logoRes = "logo_default"),
         Team("Clemson Tigers", "CLEM", "#F56600", "228", "clemson-tigers", logoRes = "logo_default"),
