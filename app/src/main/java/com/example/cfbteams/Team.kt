@@ -22,10 +22,12 @@ data class Team(
     val color: String,
     val espnId: String,
     val espnSlug: String,
-    val logoRes: String? = null
+    val logoRes: String? = null,
+    val overrideUrl: String? = null
 ) {
     val scheduleUrl: String
-        get() = "https://www.espn.com/college-football/team/schedule/_/id/$espnId/$espnSlug"
+        get() = overrideUrl
+            ?: "https://www.espn.com/college-football/team/schedule/_/id/$espnId/$espnSlug"
 }
 
 object TeamRepository {
