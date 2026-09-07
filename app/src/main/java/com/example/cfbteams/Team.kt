@@ -31,9 +31,9 @@ data class Team(
 object TeamRepository {
 
     val teams: List<Team> = listOf(
-        Team("Alabama Crimson Tide", "ALA", "#9E1B32", "333", "alabama-crimson-tide"),
-        Team("Texas Longhorns", "TEX", "#BF5700", "251", "texas-longhorns"),
-        Team("Texas A&M Aggies", "TAMU", "#500000", "245", "texas-am-aggies"),
-        Team("Ole Miss Rebels", "MISS", "#14213D", "145", "ole-miss-rebels")
+        Team("Alabama Crimson Tide", "ALA", "#9E1B32", "333", "alabama-crimson-tide", logoRes = "logo_alabama"),
+        Team("Texas Longhorns", "TEX", "#BF5700", "251", "texas-longhorns", logoRes = "logo_texas"),
+        Team("Texas A&M Aggies", "TAMU", "#500000", "245", "texas-am-aggies", logoRes = "logo_texas_am"),
+        Team("Ole Miss Rebels", "MISS", "#14213D", "145", "ole-miss-rebels", logoRes = "logo_ole_miss")
     )
 }
