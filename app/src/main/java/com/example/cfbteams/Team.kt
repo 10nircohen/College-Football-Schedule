@@ -83,7 +83,7 @@ object TeamRepository {
         Team("Arizona State Sun Devils", "ASU", "#8C1D40", "9", "arizona-state-sun-devils", logoRes = "logo_asu"),
         Team("Colorado Buffaloes", "COL", "#CFB87C", "38", "colorado-buffaloes", logoRes = "logo_col"),
         Team("Iowa Hawkeyes", "IOWA", "#FFCD00", "2294", "iowa-hawkeyes", logoRes = "logo_iowa"),
-        Team("Iowa State Cyclones", "ISU", "#C8102E", "66", "iowa-state-cyclones", logoRes = "logo_isu),
+        Team("Iowa State Cyclones", "ISU", "#C8102E", "66", "iowa-state-cyclones", logoRes = "logo_isu"),
         Team("TCU Horned Frogs", "TCU", "#4D1979", "2628", "tcu-horned-frogs", logoRes = "logo_tcu"),
         Team("Utah Utes", "UTAH", "#BE0000", "254", "utah-utes", logoRes = "logo_utah"),
         Team("West Virginia Mountaineers", "WVU", "#EAAA00", "277", "west-virginia-mountaineers", logoRes = "logo_wvu"),
