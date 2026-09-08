@@ -77,16 +77,16 @@ object TeamRepository {
         Team("Wisconsin Badgers", "WISC", "#C5050C", "275", "wisconsin-badgers", logoRes = "logo_wisc"),
 
         // Big 12
-        Team("Texas Tech Red Raiders", "TTU", "#CC0000", "2641", "texas-tech-red-raiders", logoRes = "logo_default"),
-        Team("BYU Cougars", "BYU", "#002E5D", "252", "byu-cougars", logoRes = "logo_default"),
-        Team("Arizona Wildcats", "ARIZ", "#AB0520", "12", "arizona-wildcats", logoRes = "logo_default"),
-        Team("Arizona State Sun Devils", "ASU", "#8C1D40", "9", "arizona-state-sun-devils", logoRes = "logo_default"),
-        Team("Colorado Buffaloes", "COL", "#CFB87C", "38", "colorado-buffaloes", logoRes = "logo_default"),
-        Team("Iowa Hawkeyes", "IOWA", "#FFCD00", "2294", "iowa-hawkeyes", logoRes = "logo_default"),
-        Team("Iowa State Cyclones", "ISU", "#C8102E", "66", "iowa-state-cyclones", logoRes = "logo_default"),
-        Team("TCU Horned Frogs", "TCU", "#4D1979", "2628", "tcu-horned-frogs", logoRes = "logo_default"),
-        Team("Utah Utes", "UTAH", "#BE0000", "254", "utah-utes", logoRes = "logo_default"),
-        Team("West Virginia Mountaineers", "WVU", "#EAAA00", "277", "west-virginia-mountaineers", logoRes = "logo_default"),
+        Team("Texas Tech Red Raiders", "TTU", "#CC0000", "2641", "texas-tech-red-raiders", logoRes = "logo_ttu"),
+        Team("BYU Cougars", "BYU", "#002E5D", "252", "byu-cougars", logoRes = "logo_byu"),
+        Team("Arizona Wildcats", "ARIZ", "#AB0520", "12", "arizona-wildcats", logoRes = "logo_ariz"),
+        Team("Arizona State Sun Devils", "ASU", "#8C1D40", "9", "arizona-state-sun-devils", logoRes = "logo_asu"),
+        Team("Colorado Buffaloes", "COL", "#CFB87C", "38", "colorado-buffaloes", logoRes = "logo_col"),
+        Team("Iowa Hawkeyes", "IOWA", "#FFCD00", "2294", "iowa-hawkeyes", logoRes = "logo_iowa"),
+        Team("Iowa State Cyclones", "ISU", "#C8102E", "66", "iowa-state-cyclones", logoRes = "logo_isu),
+        Team("TCU Horned Frogs", "TCU", "#4D1979", "2628", "tcu-horned-frogs", logoRes = "logo_tcu"),
+        Team("Utah Utes", "UTAH", "#BE0000", "254", "utah-utes", logoRes = "logo_utah"),
+        Team("West Virginia Mountaineers", "WVU", "#EAAA00", "277", "west-virginia-mountaineers", logoRes = "logo_wvu"),
         
         // ACC
         Team("Miami Hurricanes", "MIA", "#F47321", "2390", "miami-fl-hurricanes", logoRes = "logo_default"),
