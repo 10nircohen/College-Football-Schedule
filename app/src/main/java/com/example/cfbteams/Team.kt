@@ -89,14 +89,14 @@ object TeamRepository {
         Team("West Virginia Mountaineers", "WVU", "#EAAA00", "277", "west-virginia-mountaineers", logoRes = "logo_wvu"),
         
         // ACC
-        Team("Miami Hurricanes", "MIA", "#F47321", "2390", "miami-fl-hurricanes", logoRes = "logo_default"),
-        Team("Virginia Cavaliers", "UVA", "#232D4B", "258", "virginia-cavaliers", logoRes = "logo_default"),
-        Team("Clemson Tigers", "CLEM", "#F56600", "228", "clemson-tigers", logoRes = "logo_default"),
-        Team("Florida State Seminoles", "FSU", "#782F40", "52", "florida-state-seminoles", logoRes = "logo_default"),
-        Team("Notre Dame Fighting Irish", "ND", "#0C2340", "87", "notre-dame-fighting-irish", logoRes = "logo_default"),
-        Team("SMU Mustangs", "SMU", "#C8102E", "2567", "southern-methodist-mustangs", logoRes = "logo_default"),
-        Team("Louisville Cardinals", "LOU", "#AD0000", "97", "louisville-cardinals", logoRes = "logo_default"),
-        Team("North Carolina Tar Heels", "UNC", "#7BAFD4", "153", "north-carolina-tar-heels", logoRes = "logo_default"),
-        Team("California Golden Bears", "CAL", "#003262", "25", "california-golden-bears", logoRes = "logo_default")
+        Team("Miami Hurricanes", "MIA", "#F47321", "2390", "miami-fl-hurricanes", logoRes = "logo_mia"),
+        Team("Virginia Cavaliers", "UVA", "#232D4B", "258", "virginia-cavaliers", logoRes = "logo_uva"),
+        Team("Clemson Tigers", "CLEM", "#F56600", "228", "clemson-tigers", logoRes = "logo_clem"),
+        Team("Florida State Seminoles", "FSU", "#782F40", "52", "florida-state-seminoles", logoRes = "logo_fsu"),
+        Team("Notre Dame Fighting Irish", "ND", "#0C2340", "87", "notre-dame-fighting-irish", logoRes = "logo_nd"),
+        Team("SMU Mustangs", "SMU", "#C8102E", "2567", "southern-methodist-mustangs", logoRes = "logo_smu"),
+        Team("Louisville Cardinals", "LOU", "#AD0000", "97", "louisville-cardinals", logoRes = "logo_lou"),
+        Team("North Carolina Tar Heels", "UNC", "#7BAFD4", "153", "north-carolina-tar-heels", logoRes = "logo_unc"),
+        Team("California Golden Bears", "CAL", "#003262", "25", "california-golden-bears", logoRes = "logo_cal")
     )
 }
