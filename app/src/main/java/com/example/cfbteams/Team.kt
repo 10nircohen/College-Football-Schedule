@@ -22,8 +22,7 @@ data class Team(
     val color: String,
     val espnId: String,
     val espnSlug: String,
-    val logoRes: String? = null,
-    val overrideUrl: String? = null
+    val logoRes: String? = null
 ) {
     val scheduleUrl: String
         get() = overrideUrl
@@ -33,20 +32,7 @@ data class Team(
 object TeamRepository {
 
     val teams: List<Team> = listOf(
-        
-        // "This Week" card - links to ESPN's overall schedule instead of a
-        // specific team. espnId/espnSlug are unused placeholders here since
-        // overrideUrl takes priority.
-        Team(
-            name = "This Week",
-            abbr = "CFB",
-            color = "#1A1A1A",
-            espnId = "",
-            espnSlug = "",
-            logoRes = "logo_default",
-            overrideUrl = "https://www.espn.com/college-football/schedule"
-        ),
-
+ 
         // SEC
         Team("Alabama Crimson Tide", "ALA", "#9E1B32", "333", "alabama-crimson-tide", logoRes = "logo_alabama"),
         Team("Texas Longhorns", "TEX", "#BF5700", "251", "texas-longhorns", logoRes = "logo_texas"),

@@ -4,6 +4,7 @@ import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
@@ -18,11 +19,21 @@ class MainActivity : AppCompatActivity() {
         val recyclerView: RecyclerView = findViewById(R.id.recyclerTeams)
         recyclerView.layoutManager = GridLayoutManager(this, 4)
         recyclerView.adapter = TeamAdapter(TeamRepository.teams) { team ->
-            openSchedule(team.scheduleUrl)
+            openUrl(team.scheduleUrl)
+        }
+
+        val btnThisWeek: ImageButton = findViewById(R.id.btnThisWeek)
+        btnThisWeek.setOnClickListener {
+            openUrl("https://www.espn.com/college-football/schedule")
+        }
+
+        val btnRankings: ImageButton = findViewById(R.id.btnRankings)
+        btnRankings.setOnClickListener {
+            openUrl("https://www.espn.com/college-football/rankings")
         }
     }
 
-    private fun openSchedule(url: String) {
+    private fun openUrl(url: String) {
         try {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
