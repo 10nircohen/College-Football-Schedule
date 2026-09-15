@@ -25,8 +25,7 @@ data class Team(
     val logoRes: String? = null
 ) {
     val scheduleUrl: String
-        get() = overrideUrl
-            ?: "https://www.espn.com/college-football/team/schedule/_/id/$espnId/$espnSlug"
+        get() = "https://www.espn.com/college-football/team/schedule/_/id/$espnId/$espnSlug"
 }
 
 object TeamRepository {
